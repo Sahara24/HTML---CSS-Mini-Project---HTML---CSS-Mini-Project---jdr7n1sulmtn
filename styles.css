@@ -1,1 +1,119 @@
+body{
+  font-family: 'Roboto-Condensed',sans-serif;
+  margin: 0;
+  height: auto;
+  background-color: #eee;
+}
+main{
+  max-width: 70rem;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.button{
+  border:1px solid rgb(202, 202, 194);
+  padding: 0.5rem 2rem;
+  background-color:rgb(245, 245, 245);
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  border-radius: 30px;
+}
+.intro-text{
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: rgb(252, 252, 252);
+}
+.intro-text-inner{
+  align-self:center;
+  justify-content: center;
+  text-align: center;
+}
+.desc{
+  font-size: 1.5rem;
+  margin-bottom: 20px;;
+}
+.intro-head{
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#intro-img {
+  background: url(https://source.unsplash.com/De8wMYoSSBc);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 0 1 60vw;
+  margin: 0;
+  height: 50vh;
+}
+#view-work{
+  margin: 0;
+  padding: 1.5rem;
+  background-color: #333333;
+}
+h3{
+  font-size: 1.75rem;
+  margin: 0;
+  color: #ffffff;
+  font-weight: 400;
+}
+.pictures{
+  font-size: 1.35rem;
+  font-weight: 550;
+  padding: 3px;
+  color: #000000;
+}
+img{
+  width: 100%;
+  display: block;
+}
+.text{
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+}
+.text,#view-work,footer{
+  text-align: center;
+}
+footer{
+  padding: 2rem 1rem;
+}
+footer > h2{
+  font-size: 3rem;
+}
+footer > p{
+  font-size: 1.2rem;
+}
+.first,.second,.third,.fourth,.fifth{
+  background-color: #f9f4f4;
+  display: inline-block;
+}
+@media (min-width: 500px) {
+  .intro{
+      display: flex;
+      height: 100%;
+  }
+  #intro-img{
+      height: 100vh;
+  }
+  .intro-text{
+      height: 100vh;
+  }
+}
+@media (min-width: 700px){
+  .button{
+      padding: 1rem 3rem;
+  }
+}
+@media  (max-width: 499px) {
+  footer > h2{
+      font-size: 1.5rem;
+  }
+}
 
